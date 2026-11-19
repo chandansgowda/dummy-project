@@ -19,7 +19,7 @@ body {
 }
 
 .action-btn:hover {
-    background: #007bff;
+    background: #0056b3;
     transform: scale(1.05);
     opacity: 0.9;
 }
