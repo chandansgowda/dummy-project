@@ -15,15 +15,15 @@ body {
 
 /* Intentional issue: HTML uses .primary-btn, but CSS expects .action-btn */
 .action-btn {
-  background: #222;
-  color: white;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 24px;
+    transition: all 0.3s ease;
 }
 
 .action-btn:hover {
-  opacity: 0.8;
+    background: #0056b3;
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.action-btn:active {
+    transform: scale(0.85);
 }

@@ -1,9 +1,11 @@
 const button = document.getElementById("demoButton");
 const message = document.getElementById("message");
 
+let count = 0;
+
 button.addEventListener("click", () => {
-  // Intentional issue for the Fork + PR demo
-  // Replace this placeholder with the proper success message.
-  message.textContent =
-    "Your Pull Request fix works! This is a changed message.";
+    count++;
+
+    message.textContent =
+        `Button clicked ${count} times! Your contribution work.`;
 });
