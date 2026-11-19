@@ -7,5 +7,5 @@ button.addEventListener("click", () => {
     count++;
 
     message.textContent =
-        `Button clicked ${count} times! Your contribution works.`;
+        `Button clicked ${count} times! Your contribution work.`;
 });
